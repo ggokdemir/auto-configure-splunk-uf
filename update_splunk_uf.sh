@@ -65,4 +65,5 @@ else
 fi
 
 # Restart Splunk
+echo "Restarting Splunk Universal Forwarder"
 sudo -u splunk $SPLUNK_HOME/bin/splunk restart
